@@ -1,0 +1,26 @@
+# OS / editor
+.DS_Store
+.vscode/
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Model and training artifacts
+catboost_info/
+*.pkl
+*.joblib
+
+# Generated outputs
+submission*.csv
+integrated_optimization_submission.csv
+submission_target_optimized.csv
+submission_mathematically_optimized.csv
