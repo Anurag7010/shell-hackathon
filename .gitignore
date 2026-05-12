@@ -13,6 +13,7 @@ __pycache__/
 .venv/
 venv/
 env/
+.env
 
 # Model and training artifacts
 catboost_info/
@@ -20,6 +21,7 @@ catboost_info/
 *.joblib
 
 # Generated outputs
+outputs/
 submission*.csv
 integrated_optimization_submission.csv
 submission_target_optimized.csv
